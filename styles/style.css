@@ -32,7 +32,7 @@ p {
 
 .hero {
   text-align: center;
-  padding: 150px 200px;
+  padding: 160px 20px;
   background-color: #F9F7FE;
   line-height: 2;
 }
@@ -50,6 +50,31 @@ p {
   font-weight: bold;
   font-size: 36px;
   color: var(--secondary-color);
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
+.about-section-content {
+  margin: 30px;
+
+}
+
+.about-section h1 {
+  font-size: 64px;
+  font-family: var(--heading-font);
+  font-weight: bold;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: var(--default-font);
+  line-height: 27px;
+  font-weight: 700;
+  margin: 25px 0;
+
 }
 
 .btn-branding {
@@ -85,6 +110,10 @@ p {
 
   .project-description {
     padding: 0;
+    text-align: center;
+  }
+
+  .about-section {
     text-align: center;
   }
 }
