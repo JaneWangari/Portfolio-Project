@@ -22,10 +22,40 @@ h2 {
 p {
   margin: 30px;
 }
-nav ul{
-  display: inline;
-  padding: 0;
+
+nav {
+  padding: 20px 0;
 }
+
+nav ul {
+  padding: 0;
+
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 60px;
+  margin-left: 15px;
+  font-family: var(--default-font);
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition: all 150m ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color);
+}
+
+
+.logo-img {
+  width: 180px;
+}
+
 .project-description {
   font-family: var(--default-font);
   font-size: 16px;
@@ -79,13 +109,15 @@ nav ul{
   margin: 25px 0;
 
 }
-.content-container h3{
+
+.content-container h3 {
   font-size: 24px;
   font-family: var(--default-font);
   font-weight: bold;
   line-height: 1;
 }
-.content-container p{
+
+.content-container p {
   font-size: 14px;
   font-family: var(--default-font);
   margin: 0;
@@ -108,11 +140,13 @@ nav ul{
   font-size: 18px;
   line-height: 27px;
 }
-.contact-container{
+
+.contact-container {
   line-height: 2.5;
   text-align: left;
   margin: 0 60px;
 }
+
 @media(max-width:900px) {
   h1 {
     font-size: 50px;
@@ -120,6 +154,10 @@ nav ul{
 
   h2 {
     font-size: 35px;
+  }
+
+  nav {
+    text-align: center;
   }
 
   .hero {
@@ -134,7 +172,9 @@ nav ul{
   .content-container {
     text-align: center;
   }
-  .content-container h1{
+
+  .content-container h1 {
     font-size: 50px;
   }
+
 }
