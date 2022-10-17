@@ -33,7 +33,6 @@ nav ul {
   padding: 0;
 ;
  
-
 }
 
 nav li {
@@ -178,6 +177,11 @@ nav li.active a {
   background-color: #F9F7FE;
   margin: 30px;
   padding: 20px 120px;
+}
+.mugshot{
+  padding: 10px 20px;
+  max-height: 500px;
+border-radius: 25px;
 }
 @media(max-width:900px) {
   h1 {
